@@ -13,6 +13,7 @@
         <router-link to="/signup" class=" px-2 no-underline btn btn-info" v-if="!signedIn()">Sign Up</router-link>
         <router-link to="/add-asset" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Products</router-link>
         <router-link to="/add-task" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Tasks</router-link>
+        <router-link to="/assets/all" class=" px-2 no-underline btn btn-info" v-if="signedIn()">All Assets</router-link>
         <router-link to="/add-worker" class="px-2 no-underline btn btn-info" v-if="signedIn()">Workers</router-link>
         <a href="#" @click.prevent="signOut" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Sign out</a>
       </ul>

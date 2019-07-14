@@ -6,6 +6,7 @@ import Products from '@/components/products/Products.vue'
 import Tasks from '@/components/tasks/Tasks.vue'
 import Workers from '@/components/workers/Workers.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import Assetsall from '@/components/Assetsall.vue'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/assets/all',
+      name: 'Assetsall',
+      component: Assetsall
     },
     {
       path: '/add-asset',

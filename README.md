@@ -42,6 +42,7 @@ In Second Command Line go to folder front_end_with_vuejs
 * http://localhost:3000/api/v1/workerskills/  ,for add-worker it used to get,post,put,patch,delete
 * http://localhost:3000/api/v1/tasks/ ,for add-task it used to get,post,put,patch,delete
 * http://localhost:3000//api/v1/products/ , for add-assets it used to get,post,put,patch,delete
+* http://localhost:3000/api/v1/products/  ,for all-assets it used to get
 * http://localhost:3000/signin/ , for login as admin
 * http://localhost:3000/signup/ , for creating account for admin controll 
 
