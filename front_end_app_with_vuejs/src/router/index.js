@@ -19,7 +19,7 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/products',
+      path: '/add-asset',
       name: 'Products',
       component: Products
     },
@@ -29,12 +29,12 @@ export default new Router({
       component: Titus
     },
     {
-      path: '/tasks',
+      path: '/add-task',
       name: 'Tasks',
       component: Tasks
     },
     {
-      path: '/workers',
+      path: '/add-worker',
       name: 'Workers',
       component: Workers
     },

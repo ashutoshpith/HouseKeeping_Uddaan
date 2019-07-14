@@ -10,9 +10,9 @@
         <a href="/" class="mr-auto uppercase btn btn-info pl-4">House Keeping</a>
         <router-link to="/signin" class=" px-2  btn btn-info" v-if="!signedIn()">Sign in</router-link>
         <router-link to="/signup" class=" px-2 no-underline btn btn-info" v-if="!signedIn()">Sign Up</router-link>
-        <router-link to="/products" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Products</router-link>
-        <router-link to="/tasks" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Tasks</router-link>
-        <router-link to="/workers" class="px-2 no-underline btn btn-info" v-if="signedIn()">Workers</router-link>
+        <router-link to="/add-asset" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Products</router-link>
+        <router-link to="/add-task" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Tasks</router-link>
+        <router-link to="/add-worker" class="px-2 no-underline btn btn-info" v-if="signedIn()">Workers</router-link>
         <a href="#" @click.prevent="signOut" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Sign out</a>
       </ul>
     </div>
