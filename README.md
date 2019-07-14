@@ -6,6 +6,9 @@ For Styling Bootstrap and tailwindcss used
 Admin login need to create task ,assets,and worker
 
 Technolgy used:
+
+## for backend
+
 * ruby version - 2.6.2
 * rails version - 6.0.0.rc1'
 * download ruby on rails and any query follow https://rubyonrails.org/
@@ -13,6 +16,14 @@ Technolgy used:
 * setup database backend_ruby_on_rails > config > database.yml
 * change username to "system require"
 * change password to "system require"
+
+## for Frontend
+* vuejs version "^2.5.2"
+* tailwindcss
+* bootstrap 4
+* vue-axios
+* vue-router
+
 Now
 In command line go to folder backend_ruby_on_rails
 ## do the following:
