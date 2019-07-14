@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-md m-auto py-10 container shadow-lg p-5 bg-dark rounded">
     <div class="text-red" v-if="error">{{ error }}</div>
-    <h3 class="font-mono font-regular text-3xl mb-4 text-white">Add a new product</h3>
+    <h3 class="font-mono font-regular text-3xl mb-4 text-white">Add a new Assets</h3>
     <form action="" @submit.prevent="addProduct">
       <div class="mb-6">
         <input class="input"
