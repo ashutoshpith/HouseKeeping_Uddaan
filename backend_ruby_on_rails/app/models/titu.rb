@@ -1,0 +1,2 @@
+class Titu < ApplicationRecord
+end
