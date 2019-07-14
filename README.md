@@ -27,6 +27,14 @@ In Second Command Line go to folder front_end_with_vuejs
 * any issue with vuejs follow this link https://vuejs.org/
 * after everything run you can able to successfully sigin and signup to the Housekeeping app
 
+# links available for api use
+* http://localhost:3000/api/v1/workerskills/  ,for add-worker it used to get,post,put,patch,delete
+* http://localhost:3000/api/v1/tasks/ ,for add-task it used to get,post,put,patch,delete
+* http://localhost:3000//api/v1/products/ , for add-assets it used to get,post,put,patch,delete
+* http://localhost:3000/signin/ , for login as admin
+* http://localhost:3000/signup/ , for creating account for admin controll 
+
+
 ![indexpic](https://user-images.githubusercontent.com/31169310/61187605-1f78f400-a691-11e9-833d-677fa32990e0.jpg)
 
 
