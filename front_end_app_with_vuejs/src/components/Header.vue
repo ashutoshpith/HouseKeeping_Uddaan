@@ -8,6 +8,7 @@
       </div>
       <ul>
         <a href="/" class="mr-auto uppercase btn btn-info pl-4">House Keeping</a>
+        <a href="/" class="mr-auto uppercase btn btn-info">Home</a>
         <router-link to="/signin" class=" px-2  btn btn-info" v-if="!signedIn()">Sign in</router-link>
         <router-link to="/signup" class=" px-2 no-underline btn btn-info" v-if="!signedIn()">Sign Up</router-link>
         <router-link to="/add-asset" class=" px-2 no-underline btn btn-info" v-if="signedIn()">Products</router-link>
