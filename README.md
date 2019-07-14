@@ -27,6 +27,9 @@ In Second Command Line go to folder front_end_with_vuejs
 * any issue with vuejs follow this link https://vuejs.org/
 * after everything run you can able to successfully sigin and signup to the Housekeeping app
 
+![indexpic](https://user-images.githubusercontent.com/31169310/61187605-1f78f400-a691-11e9-833d-677fa32990e0.jpg)
+
+
 ![Screenshot from 2019-07-14 23-05-36](https://user-images.githubusercontent.com/31169310/61187189-51d42280-a68c-11e9-91b5-739e46d57b07.png)
 ![Screenshot from 2019-07-14 23-05-39](https://user-images.githubusercontent.com/31169310/61187190-53054f80-a68c-11e9-8c8a-c4c0c663cc00.png)
 
