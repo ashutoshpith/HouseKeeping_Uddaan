@@ -42,13 +42,6 @@ ActiveRecord::Schema.define(version: 2019_07_14_153452) do
     t.index ["worker_id"], name: "index_tasks_on_worker_id"
   end
 
-  create_table "titus", force: :cascade do |t|
-    t.string "name"
-    t.string "age"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "workers", force: :cascade do |t|
     t.string "name"
     t.string "skill_set"

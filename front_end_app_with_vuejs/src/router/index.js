@@ -5,7 +5,6 @@ import Signup from '@/components/Signup.vue'
 import Products from '@/components/products/Products.vue'
 import Tasks from '@/components/tasks/Tasks.vue'
 import Workers from '@/components/workers/Workers.vue'
-import Titus from '@/components/titus/Titus.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 
 Vue.use(Router)
@@ -22,11 +21,6 @@ export default new Router({
       path: '/add-asset',
       name: 'Products',
       component: Products
-    },
-    {
-      path: '/titus',
-      name: 'Titus',
-      component: Titus
     },
     {
       path: '/add-task',
